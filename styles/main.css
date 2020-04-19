@@ -1,0 +1,59 @@
+/* CSS Styles */ 
+body {
+    background-color: #ffff;
+    color: black;
+    font-family: arial,sans-serif;
+}
+
+#logo {
+    display: flex;
+    text-align: -webkit-center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 47px;
+    padding-top: 130px;
+    height: 92px;
+    width: 272;
+
+}
+.box-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 30px;
+    box-sizing: border-box;
+    height: 45px;
+    width: 450px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid rgba(206, 202, 202, 0.918);
+    padding-left: 40px;
+    font-size: 18px;
+    outline: none;
+}
+
+.box-1:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.20);
+}
+
+
+.forms {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-left: 36px;
+    box-sizing: border-box;
+    width: 475px;
+    height: 40px;
+    font: inherit;
+    font-size: 16px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border:1px solid #eaeaea;
+    outline: none;
+}
